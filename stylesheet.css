@@ -1,0 +1,124 @@
+﻿@import url('fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Roboto', Helvetica, sans-serif !important;
+    
+}
+p.italic {
+  font-style: italic;
+}
+.header {
+    padding: 5px;
+    text-align: center;
+    background-color: #9AEBFF;
+    font-family: "Lucida Handwriting", cursive;
+    box-shadow: 0px 10px 10px #888888;
+    border: 3px hidden white;
+    border-radius:5px;
+}
+.footer{
+    width: 100%;
+    color: gray;
+    text-align: center;
+    height: 100px;
+    position: absolute;
+    do
+}
+.side{   
+  float: left;
+  width: 30%;
+  height: 550px;
+  border: 3px hidden white;
+  border-radius:20px;
+}
+.tweetboard{   
+  float: none;
+  padding-left: 30%;
+  padding-right: 30%;
+  width: 100%;
+  padding-bottom: 40px;
+  text-align:center
+}
+
+.middle {
+    float: left;
+    width: 40%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    border: 3px hidden white;
+    border-radius:20px;
+}
+.card {
+    background-color: #F4F4F4;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 10px 10px #888888;
+    border: 3px hidden white;
+    border-radius:5px;
+}
+@media screen and (max-width: 1200px) {
+  .side, .middle {   
+    width: 100%;
+    padding: 0;
+  }
+  .tweetboard {   
+    width: 100%;
+    padding: 0;
+  }
+}
+    
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image {
+    text-align: center;
+    background-color: white;
+    border: 3px hidden white;
+    border-radius:5px;
+}
+.text{
+    text-align: center;
+    background-color: white;
+    border: 3px hidden white;
+    border-radius: 5px;
+}
+.image img {
+    
+    padding-top:5px;
+    padding-bottom: 5px;
+    border: 5px hidden #6EF6F6;
+    border-radius:10px;
+
+}
+.logo img {
+    height:150px;
+    
+}
+.logo {
+    text-align: center;
+}
+hr {
+    color: #6EF6F6
+}
+.menu {
+    background-color: white;
+    text-align: center;
+    font-family: "Lucida Handwriting", cursive;
+}

@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Frank's Bakery - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="navstyles.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/favicon.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+</head>
+<style>
+    .image img {
+        height: 400px;
+    }
+
+    @media screen and (max-width: 1200px) {
+        .image img {
+            height: 325px
+        }
+        @media screen and (max-width: 1200px) {
+            .navbar {
+                display: none;
+            }
+
+            .header {
+                display: none;
+            }
+
+            .mobilenav {
+                display: block;
+            }
+        }
+</style>
+<body>
+
+    <div class=header>
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+        <div class="navbar">
+            <a href="index.html" style="color: black; background-color: #86EAFF"><strong>HOME</strong></a>
+            <a href="menu.html" style="color: black;"><strong>MENU</strong></a>
+            <a href="about.html" style="color: black;"><strong>ABOUT</strong></a>
+            <a href="contact.html" style="color: black; float:right"><strong>CONTACT</strong></a>
+        </div>
+    </div>
+    <div class="mobilenav">
+        <a href="index.html" class="active"><img id="mobileimage" src="images/logo.png" style="height:75px; " /></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <div id="myLinks">
+            <a href="menu.html" style="color: black; ">Menu</a>
+            <a href="about.html" style="color: black;">About</a>
+            <a href="contact.html" style="color: black;">Contact</a>
+        </div>
+
+    </div>
+    <div class="content">
+        <div class="side">
+            <div class="card" style="height:448px">
+                <div class="image">
+                    <img style="height:385px;" src="images/cake1.jpg">
+                </div>
+
+            </div>
+        </div>
+        <div class="middle" style="height=448   px">
+            <div class="card" style="height=700px">
+                <div class="text" style="height=700px">
+                    <br>
+                    <h2 style="text-align: center">
+                        Here at Frank's Bakery, we have the best desserts!
+                        <br> Everything your heart desires!
+                        <br> We have everything from cake, to brownies,
+                        <br>to cupcakes, and cookies!
+                    </h2>
+                    <br>
+                    <h2 style="text-align: center">
+                        We have options to make treats for birthdays, weddings,
+                        <br />and any other event you may be hosting!
+                    </h2>
+                    <br>
+                    <h2 style="text-align: center">
+                        Click <a href="../FBLA/menu.html" , style="color:black"> here</a> to take a look at our menu!
+                        <br>
+                        <br>
+
+                </div>
+            </div>
+        </div>
+        <div class="side">
+            <div class="card" style="height:450px">
+                <div class="image">
+                    <img style="height:400px;" src="images/cookies.jpeg">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <br>
+    <div class="tweetboard" style="">
+        <div class="card">
+            <a class="twitter-timeline" data-width="700" data-height="700" href="https://twitter.com/bakery_frank">Tweets by bakery_frank</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+
+    </div>
+    <hr>
+    <br>
+    <div class="footer">
+        <br>
+        Email: <a href="mailto:franksbakeryfl@gmail.com" style="color:gray">franksbakeryfl@gmail.com</a>
+        <br />
+        Phone: (727) 547-7717
+        <br />
+        Instagram: <a href="https://www.instagram.com/franksbakeryofficial/" style="color:gray">franksbakeryofficial</a>
+        <br />
+        Twitter: <a href="https://twitter.com/bakery_frank" style="color:gray">bakery_frank</a>
+        <br />
+        Contact us <a href="contact.html" style="color:gray">here</a>!
+        <br />
+        Copyright page <a href="copyright.html" style="color:gray">here</a>
+        <br />
+        <br />
+        <br />
+    </div>
+
+    <br>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+﻿
+.navbar {
+    overflow: hidden;
+    background-color: #A8EFFF;
+    color: black;
+    font-family: 'Roboto', Helvetica, sans-serif !important;
+    font-size: 15px;
+    text-align: center;
+    border: 3px hidden white;
+    border-radius:5px;
+
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: 'Roboto', Helvetica, sans-serif !important;
+
+}
+.navbar a:hover {
+    background: #B2F1FF;
+    color: black;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: 'Roboto', Helvetica, sans-serif !important;
+
+}
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+
+}
+
+.mobilenav {
+    display: none;
+    overflow: hidden;
+    display: none;
+    background-color: #A8EFFF;
+    color: black;
+    font-family: 'Roboto', Helvetica, sans-serif !important;
+    font-size: 15px;
+    text-align: center;
+    border: 3px hidden white;
+    border-radius: 5px;
+
+}
+
+    .mobilenav #myLinks {
+        display: none;
+        font-family: 'Roboto', Helvetica, sans-serif !important;
+        background-color: #f2f2f2;
+    }
+
+    .mobilenav a {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        background-color: #A8EFFF;
+    }
+.mobilenav a:hover {
+    background: #B2F1FF;
+    color: black;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: 'Roboto', Helvetica, sans-serif !important;
+
+}
+.mobilenav a.icon {
+    display: block;
+    right: 0;
+    top: 0;
+    color: black;
+}
+.mobilenav .active{
+    background-color: #B2F1FF;
+}
+.mobilenav .active a:hover{
+    background: #B2F1FF;
+}
+
